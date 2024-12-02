@@ -1,0 +1,27 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    .navbar{
+        padding-left: 4vw;
+        height: 10vh;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 3vw;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
