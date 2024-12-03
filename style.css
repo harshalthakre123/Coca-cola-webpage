@@ -5,10 +5,10 @@
 }
 
 #header .navbar {
-  padding-left: 4vw;
-  height: 10vh;
+  padding-left: 3.45vw;
+  padding-top: 0.75vh;
+  height: 13.2vh;
   width: 100%;
-  background-color: aqua;
   display: flex;
   align-items: center;
   gap: 4vw;
@@ -21,4 +21,141 @@
 #header .navbar ul a {
   text-decoration: none;
   color: black;
+}
+
+#content {
+  background-color: rgb(240, 240, 240);
+}
+#content #hero {
+  height: auto;
+  width: 100%;
+  padding-top: 5vh;
+}
+#content #hero .hero {
+  padding-left: 4.5vw;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  overflow-x: scroll;
+  gap: 2vw;
+}
+#content #hero .hero div {
+  height: 95vh;
+  width: 100%;
+}
+#content #hero .hero div img {
+  border-radius: 3vh;
+}
+#content .content {
+  height: auto;
+  margin-left: 8.2vw;
+  margin-right: 8.2vw;
+}
+#content .content .section2 {
+  height: 105vh;
+}
+#content .content .section2 .sec2 {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2.5vw;
+}
+#content .content .section2 .sec2 div {
+  height: 77vh;
+  width: 50%;
+}
+#content .content .section2 .sec2 div img {
+  border-radius: 2vh;
+}
+#content .content .section3 .sec3 {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  display: flex;
+  justify-content: center;
+  gap: 2.5vw;
+}
+#content .content .section3 .sec3 a {
+  height: 110vh;
+  width: 50%;
+  background-color: white;
+  border-radius: 2vh;
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+#content .content .section3 .sec3 a img {
+  width: 100%;
+}
+#content .content .section3 .sec3 a div {
+  margin: 3vh;
+  margin-left: 3vw;
+}
+#content .content .section5 {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+#content .content .section5 .sec5 .row {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+#content .content .section5 .sec5 .row div {
+  background-color: white;
+  padding-top: 3vh;
+  padding-left: 1.75vw;
+  height: 32vh;
+  width: 15vw;
+}
+#content .content .section5 .sec5 .row div img {
+  height: 26vh;
+}
+#content .heading {
+  margin-top: 10vh;
+}
+#content .btn {
+  height: 6vh;
+  width: 22vw;
+  border: 2px solid black;
+  border-radius: 3vh;
+}
+#content .view-btn {
+  background-color: black;
+  color: white;
+  height: 6vh;
+  width: 22vw;
+  border-radius: 3vh;
+}
+#content .discription {
+  font-size: 19px;
+}
+
+#footer {
+  padding-left: 8.4vw;
+  padding-right: 8.4vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+#footer .footer1 {
+  padding-top: 10.5vh;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7vh;
+}
+#footer .footer2 {
+  margin-top: 8vw;
+}
+
+.fbtn {
+  height: 6vh;
+  width: 15vw;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3vh;
 }/*# sourceMappingURL=style.css.map */
