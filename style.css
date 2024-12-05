@@ -123,6 +123,7 @@
   border-radius: 3vh;
 }
 #content .view-btn {
+  margin-left: 31vw;
   background-color: black;
   color: white;
   height: 6vh;
