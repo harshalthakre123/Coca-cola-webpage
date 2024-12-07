@@ -149,7 +149,35 @@
   margin-bottom: 7vh;
 }
 #footer .footer2 {
-  margin-top: 8vw;
+  margin-top: 3vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7vh;
+}
+#footer .footer2 ul {
+  list-style: none;
+}
+#footer .footer2 ul .f2head {
+  font-size: smaller;
+  color: beige;
+}
+#footer .footer2 ul li {
+  line-height: 5.2vh;
+  font-size: large;
+  font-weight: bold;
+}
+#footer .footer2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+#footer .footer2 .appicon {
+  display: flex;
+  gap: 1.3vw;
+}
+#footer .footer3 {
+  margin-top: 8vh;
+  text-align: right;
 }
 
 .fbtn {
