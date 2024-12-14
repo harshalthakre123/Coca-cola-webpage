@@ -16,11 +16,12 @@
 #header .navbar ul {
   list-style: none;
   display: flex;
-  gap: 3vw;
+  gap: 4vw;
 }
 #header .navbar ul a {
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 
 #content {
@@ -93,13 +94,18 @@
   margin-left: 3vw;
 }
 #content .content .section5 {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+#content .content .section5 .sec5 {
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 #content .content .section5 .sec5 .row {
   margin-top: 10vh;
   margin-bottom: 5vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2vw;
 }
@@ -123,11 +129,11 @@
   border-radius: 3vh;
 }
 #content .view-btn {
-  margin-left: 31vw;
+  margin-left: 15vw;
   background-color: black;
   color: white;
-  height: 6vh;
-  width: 22vw;
+  height: 6.5vh;
+  width: 24vw;
   border-radius: 3vh;
 }
 #content .discription {

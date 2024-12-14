@@ -17,10 +17,11 @@
         ul{
             list-style: none;
             display: flex;
-            gap: 3vw;
+            gap: 4vw;
             a{
                 text-decoration: none;
                 color: black;
+                font-weight: bolder;
             }
         }
     }
@@ -107,13 +108,16 @@
             }
         }
         .section5{
-            margin-top: 20vh;
-            margin-bottom: 20vh;
+            margin-top: 30vh;
+            margin-bottom: 30vh;
             .sec5{
+                margin-left: 15vw;
+                margin-right: 15vw;
                 .row{
                     margin-top: 10vh;
                     margin-bottom: 5vh;
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: center;
                     gap: 2vw;
 
@@ -145,13 +149,14 @@
 }
 
 .view-btn{
-    margin-left: 31vw;
+    margin-left: 15vw;
     background-color: black;
     color: white;
-    height: 6vh;
-    width: 22vw;
+    height: 6.5vh;
+    width: 24vw;
     // border: 2px solid black;
     border-radius: 3vh;
+
 }
 
 // description ---------------------------------------------------------------------------------------
@@ -220,3 +225,10 @@
     border: 2px solid white;
     border-radius: 3vh;
 }
+
+
+
+
+
+
+
